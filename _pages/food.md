@@ -1,6 +1,6 @@
 ---
 layout: page
-title: food
+title: cooking
 ---
 
-this is my food page!
+this is my cooking page!
