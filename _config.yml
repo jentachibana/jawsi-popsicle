@@ -23,3 +23,8 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
