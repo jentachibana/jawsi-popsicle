@@ -2,20 +2,16 @@
 layout: default
 ---
 
-<div class="home">
+<body class="home">
 
-  
-  {{ content }}
+  {% include header.html %}
 
-  this is my personal website!
+  <div class="home-content">
+    
+    {{ content }}
 
-  <style>
-    body {
-      background-image: url('/photos/home.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-  }
-  </style>
- 
-</div>
+    this is my personal website!
+
+  </div>
+
+</body>

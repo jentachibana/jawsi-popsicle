@@ -1,3 +1,18 @@
+
+.home{
+  background-image: url('/photos/home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: white;
+  site-title: white;
+}
+
+.art{
+  background-color: #DDD5D0;
+}
+
 /**
  * Site header
  */
@@ -18,7 +33,7 @@
 
   &,
   &:visited {
-    color: white;
+    color: red;
   }
 }
 
@@ -35,7 +50,7 @@
   }
 
   .page-link {
-    color: white;
+    color: blue;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
