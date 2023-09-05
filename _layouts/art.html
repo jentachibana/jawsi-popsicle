@@ -3,12 +3,15 @@ layout: default
 ---
 <body class="art">
 
-   {% include header.html %}
-
    <div class="art-content">
-    
-    {{ content }}
+
+      <div class="page-title" href="{{ "/" | relative_url }}"> {{ page.title | escape }} </div> 
+      
+      {{ content }}
 
   </div>
+
+   {% include header.html %}
+
 
 </body>
