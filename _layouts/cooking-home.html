@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<body class="cooking-home">
+
+   <div class="cooking-content">
+      <div class="page-title" href="{{ "/" | relative_url }}"> {{ page.title | escape }} 
+      </div> 
+
+    </div>
+   <div class="cooking-posts">
+      {%- for post in site.cooking-posts -%}   
+         {{ post.title }}
+         {{ content }} 
+      {% endfor %}
+   </div>
+
+   {% include header.html %}
+
+</body>

@@ -1,5 +1,5 @@
 ---
-layout: art
+layout: art-home
 title: art
 ---
 

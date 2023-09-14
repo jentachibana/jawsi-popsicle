@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cooking-home
 title: cooking
 ---
 

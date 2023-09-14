@@ -28,4 +28,7 @@ collections:
   pages:
     output: true
     permalink: /:path
+  cooking-posts:
+    output: true
+    permalink: /:path
 
